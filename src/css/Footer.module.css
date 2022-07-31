@@ -1,0 +1,74 @@
+.superContainer{
+    width: 100vw;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #174c87;
+    border-top: rgb(254,91,81) solid 4px;
+}
+a{
+    color: white;
+}
+
+.containerFooterLogo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerFooterLogo img{
+  width: 33%;
+  margin-bottom: 30px;
+  margin-right: 200px;
+}
+
+
+.containerFooterLogo h1{
+    color: white;
+}
+
+.containerFooterOther{
+    width: 40%;
+}
+
+.numeroContato a {
+    margin-right: 10px;
+}
+
+.containerFooterOther ul{
+    text-align: center;
+}
+
+.FooterLinks{
+    display: flex;
+}
+
+
+.FooterLinks li{
+    margin: 35px 10px 35px 0px ;
+    font-size: 13px;
+    color: white;
+}
+
+.containerpoliti{
+    margin-top: 50px;
+}
+
+.FooterZapContato   {
+    color: white;
+}
+
+.contatoEmail{
+    color: white;
+}
+
+.localização{
+    color: white;
+}
+
+.containerpoliti{
+    color: white;
+}

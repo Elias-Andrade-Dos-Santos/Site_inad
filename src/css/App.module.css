@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* Container NAV */
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerNav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLogoINAED{
+    width: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+.mainmenubtn{
+    background-color: #ff8151;
+    color: white;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    padding: 12px;
+  
+}
+
+.mainmenubtn:hover{
+    background-color: #ff8151;
+   
+    
+    
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+   
+}
+
+.dropdown_child{
+    display: none;
+    background-color: #ff8151;
+    min-width: 50px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.dropdown_child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px 0px 20px 0px;
+    
+    
+
+}
+
+.dropdown_child a:hover{
+    border-bottom: 1px white solid;
+}
+
+.dropdown_child a:nth-child(2):hover{
+    border-bottom: 1px #014e97 solid;
+}
+
+.dropdown:hover .dropdown_child{
+    display: block;
+    margin-top: 120px;
+    
+    
+}
+
+
+.img{
+    width: 20%;
+    margin-left:170px;
+    
+}
+
+.img:hover{
+    cursor: pointer;
+    width: 25%;
+}
+
+.containerLinks{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerother{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerother li{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px 0px 20px 0px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+    color: #014e97;
+    
+}
+
+.containerother li:hover{
+    border-bottom: 1px solid #ff8151;
+}
+
+/* Container Sobrenos*/
+
+.superContainerSobreNos{
+    width: 100%;
+    height: 84.3%;
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+.sobreNos{
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.sobreNos h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #014e97;
+}
+
+.sobreNos p{
+    font-size: 20px;
+}
+
+.containerFotoConsultorInaed{
+    width: 50%;
+    height: 100%;
+    margin-top: 4px;
+}
+
+.imgConsultor{
+    width: 65%;
+    height: 100%;
+    margin-right: 200px;
+
+}
+
+.containerButton{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.containerButton1{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+    border-radius:30px 30px 30px 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+}
+
+.containerButton1:hover{
+  
+    background-color: #014e97;
+}
+.containerButton2:hover{
+    border: 1px solid #014e97;
+}
+
+
+.containerButton2{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+    border-radius:30px 30px 30px 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgb(255,139,79);
+    background: linear-gradient(90deg, rgba(255,139,79,1) 0%, rgba(254,85,81,1) 100%);
+    cursor: pointer;
+}
+
+.bola{
+    width: 100px;
+    height: 100%;
+    background: rgb(254,91,81);
+    background: linear-gradient(90deg, rgba(254,91,81,1) 0%, rgba(255,139,79,1) 100%);
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 4px;
+}
+
+
+
+
+.icon{
+    position: fixed;
+    color: #ff8151;
+    font-size: 50px;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.icon:hover{
+    
+    font-size: 60px;
+}

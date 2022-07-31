@@ -1,0 +1,29 @@
+.superContainer{
+    width: 100vw;
+    height: 40vh;
+    border-top: #fe5b51 solid 4px;
+   
+}
+
+.superContainer h1 {
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.container div {
+    
+  margin-top: 5px;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+}
+
+.container div img {
+    width: 120px;
+}
